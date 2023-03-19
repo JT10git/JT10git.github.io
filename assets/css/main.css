@@ -168,6 +168,14 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
+	sk {
+		border: solid 1px #ffffff;
+		border-radius: 15px;
+		line-height: 3;
+		padding: 5px;
+		margin-right: 0.5em;
+	}
+
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-weight: 600;
@@ -1539,6 +1547,8 @@ input, select, textarea {
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
 			width: 40rem;
+			overflow-y: scroll;
+			max-height: 80vh;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
